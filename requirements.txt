@@ -1,0 +1,3 @@
+gunicorn==19.7.1
+praw==4.5.1
+prawcore==0.10.1
