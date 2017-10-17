@@ -16,4 +16,4 @@ def hint_bot():
             if submission not in hintcache:
                 if 'match' in title and 'thread' in title:
                     for friend in reddit.user.friends():
-                        reddit.redditor(friend.name).message('New /r/soccer Match Thread', 'Game: ' + submission.selftext + '\n\n' + 'Url: ' + submission.url)
+                        reddit.redditor(friend.name).message('Brand new /r/soccer Match Thread', 'Game: ' + submission.selftext + '\n\n' + 'Url: ' + submission.url)
